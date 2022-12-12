@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *Main- upprt lowwer
  *Return: always 0
  */
@@ -12,10 +12,10 @@ int main(void)
 	{
 		putchar(lc);
 	}
-	putchar('\n');
-	for (uc = 'a'; uc <= 'z'; uc++)
+	for (uc = 'A'; uc <= 'Z'; uc++)
 	{
 		putchar(uc);
 	}
+	putchar('\n');
 	return (0);
 }

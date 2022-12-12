@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * Main - function contain
+/**
+ * main - function contain
  * Return: Always 0
  */
 int main(void)

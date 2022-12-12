@@ -7,7 +7,7 @@ int main(void)
 {
 	int lc;
 
-	for (lc = 0; lc <= 10; lc++)
+	for (lc = 0; lc < 10; lc++)
 	{
 		printf("%d", lc);
 	}
