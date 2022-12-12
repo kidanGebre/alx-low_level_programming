@@ -9,9 +9,12 @@ int main(void)
 
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		if (lc != 'q' || lc != 'o')
+		if (lc != 'e')
 		{
-			putchar(lc);
+			if (lc != 'q')
+			{
+				putchar(lc);
+			}
 		}
 	}
 	putchar('\n');
