@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- *main function is about
- *return: 0
+ *main- function is about
+ *Return: Alwats 0
 */
 int main(void)
 {

@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**
- * main - prints
- * Return: always 0
+/*
+ * Main - function contain
+ * Return: Always 0
  */
 int main(void)
 {
@@ -9,7 +9,10 @@ int main(void)
 
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		putchar(lc);
+		if (lc != 'q' || lc != 'o')
+		{
+			putchar(lc);
+		}
 	}
 	putchar('\n');
 	return (0);
