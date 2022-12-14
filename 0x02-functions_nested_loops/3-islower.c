@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *
- * _islower - function
+ * _islower - function is
+ * Return: 1 and 0
+ * @c- is variabl  whate
  */
 int _islower(int c)
 {
